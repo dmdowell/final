@@ -1,0 +1,120 @@
+#carred{
+  height: 150px;
+  width:75px;
+  position: relative;
+  background-color: white;
+  top: 2500px;
+  left: 30%;
+  margin-left: -75px;
+  z-index: 1;
+}
+
+
+#miniyellow{
+  height: 75px;
+  width:75px;
+  position: relative;
+  background-color: white;
+  top: 3000px;
+  left: 30%;
+  margin-left: -75px;
+  z-index: 1;
+}
+
+#cargreen{
+  height: 150px;
+  width:75px;
+  position: relative;
+  background-color: white;
+  top: 4500px;
+  left: 30%;
+  margin-left: -75px;
+  z-index: 1;
+}
+
+#minigreen{
+  height: 75px;
+  width:75px;
+  position: relative;
+  background-color: white;
+  top: 7000px;
+  left: 30%;
+  margin-left: -75px;
+  z-index: 1;
+}
+
+#cargrey{
+  height: 150px;
+  width:75px;
+  position: relative;
+  background-color: white;
+  top: 8500px;
+  left: 30%;
+  margin-left: -75px;
+  z-index: 1;
+}
+
+#carblack{
+  height: 150px;
+  width:75px;
+  position: relative;
+  background-color: white;
+  top: 1500px;
+  left: 30%;
+  margin-left: -75px;
+  z-index: 1;
+}
+
+#cartwin{
+  height: 150px;
+  width:75px;
+  position: relative;
+  background-color: white;
+  top: 6500px;
+  left: 56%;
+  margin-left: -75px;
+  z-index: 1;
+}
+#miniorange{
+  height: 75px;
+  width:75px;
+  position: relative;
+  background-color: white;
+  top: 2300px;
+  left: 56%;
+  margin-left: -75px;
+  z-index: 1;
+}
+
+#miniblack{
+  height: 75px;
+  width:75px;
+  position: relative;
+  background-color: white;
+  top: 5500px;
+  left: 66%;
+  margin-left: -75px;
+  z-index: 1;
+}
+
+#cargrey2{
+  height: 150px;
+  width:75px;
+  position: relative;
+  background-color: white;
+  top: 5700px;
+  left: 56%;
+  margin-left: -75px;
+  z-index: 1;
+}
+
+#carbaby{
+  height: 150px;
+  width:75px;
+  position: relative;
+  background-color: white;
+  top: 8000px;
+  left: 66%;
+  margin-left: -75px;
+  z-index: 1;
+}

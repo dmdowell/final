@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="css/resetdd.css" rel="stylesheet">
+  <link href="css/loaderdd.css" rel="stylesheet">
+
+  <title>loaderUI</title>
+</head>
+<body onload- "myFunction()">
+
+  <!--Loader Animation -->
+  <div id="center">
+    <div id="loader">
+      <img src="loader.svg" alt="loader animation">
+    </div>
+
+    <div class="main spinner-1">
+      <div class="main spinner-2"></div>
+    </div>
+  </div>
+  <!--End Loader Animation -->
+
+
+  <!--Page Content -->
+    <div id="content" class="animate-bottom">
+      <h2> Welcome</h2>
+      <p>thank you for visiting</p>
+    </div>
+
+  <!--End Page Content -->
+
+
+
+  <img id="page2" width="100%" height="100%">
+
+  <button type="button" onclick="myFunction()">Change stack order</button>
+
+  <script>
+    function myFunction() {
+        document.getElementById("page2").style.zIndex = "1";
+    }
+  </script>
+
+  <script type-"text/javascript">
+    var Start;
+
+
+      //Show page content after 2.5s
+      function myFunction(){
+        Start - setTimeout(showage,2500);
+      }
+
+      //Hide animation and show page Content
+      funtion showpage(){
+        document.getElementById("loader").style.display-"none";
+        document.getElementById("content").style.display-"block";
+      }
+  </script>
+
+
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/vendor/what-input.js"></script>
+  <script src="js/vendor/foundation.js"></script>
+  <script type="text/javascript" src="js/tabstyle.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/page.js"></script>
+</body>
+</html>
