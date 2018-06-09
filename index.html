@@ -7,6 +7,7 @@
   <link href="css/resetdd.css" rel="stylesheet">
   <link href="css/stylesdd.css" rel="stylesheet">
   <link href="css/car.css" rel="stylesheet">
+  <link rel="icon" href="image/favicon.ico" type="image/x-icon">
 
   <title>Dominic Dowell</title>
   <script>
@@ -18,7 +19,7 @@
       m = checkTime(m);
       s = checkTime(s);
       document.getElementById('txt').innerHTML =
-      h + ":" + m + ":" + s;
+      (h+5) + ":" + m;
       var t = setTimeout(startTime, 500);
   }
   function checkTime(i) {
@@ -27,37 +28,45 @@
   }
   </script>
 </head>
-<body>
+<body onload="startTime()">
+
   <div id="canvas">
 
-    <h1 id="counter">counter
+    <h3>Driving down the I-5 can feel like forever.<br>
+      If you leave soon, you should make it to LA or SF by<div id="txt"></div></h3>
+
+    <h1 id="counter">Begin
     </h1>
-    <img src"image/truck.png" id="truck">
-    <img src"image/gas.png" id="gas">
-    <img src"image/cow.png" id="cow">
-    <img src"image/car_red.png" id="carred">
-    <img src"image/car_grey.png" id="cargrey">
-    <img src"image/car_green.png" id="cargreen">
-    <img src"image/car_black.png" id="carblack">
-    <img src"image/car_twin.png" id="cartwin">
-    <img src"image/car_baby.png" id="carbaby">
+    <img src="image/gas.png" id="gas">
+    <img src="image/cow.png" id="cow">
+    <img src="image/cow.png" id="cow2">
+    <img src="image/car_red.png" id="carred">
+    <img src="image/car_grey.png" id="cargrey">
+    <img src="image/car_green.png" id="cargreen">
+    <img src="image/car_black.png" id="carblack">
+    <img src="image/car_twin.png" id="cartwin">
+    <img src="image/car_baby.png" id="carbaby">
 
-    <img src"image/mini_yellow.png" id="miniyellow">
-    <img src"image/mini_green.png" id="minigreen">
-    <img src"image/mini_black.png" id="miniblack">
-    <img src"image/mini_orange.png" id="miniorange">
+    <img src="image/mini_yellow.png" id="miniyellow">
+    <img src="image/mini_green.png" id="minigreen">
+    <img src="image/mini_black.png" id="miniblack">
+    <img src="image/mini_orange.png" id="miniorange">
 
 
-    <img src"image/mini_brick.png" id="brick">
-
+    <div id="brick5" style="background:url('image/brick.png') repeat-x bottom; width:2000px;height:150px;"></div>
 
 
 
     <div id="sky">
     </div>
 
+    <div id="brickwall">
+    </div>
+
     <div id="grass">
-      <div id="road"></div>
+      <div id="road">
+        <img src="image/truck.png" id="truck">
+      </div>
     </div>
 
 

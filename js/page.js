@@ -8,19 +8,29 @@ counter.style.backgroundColor = "coral";
 counter.style.color = "white";
 
 window.onscroll = function(){
-  counter.style.color = "black";
+  counter.style.color = "white";
 
   var fromTop=window.pageYOffset;
 
   counter.style.top = fromTop *1.01 +"px";
-  //counter.innerHTML = fromTop + "px";
+  counter.innerHTML = fromTop /25 + "min";
 
   truck.style.top = fromTop *1.01 +"px";
 
-  if(fromTop > 582){
+  if(fromTop > 9000){
+      counter.style.backgroundColor= "red";
+    }if(fromTop < 9000){
+        counter.style.backgroundColor= "blue";
+      }if(fromTop < 7000){
+        counter.style.backgroundColor= "blue";
+      }if(fromTop < 5000){
+          counter.style.backgroundColor= "green";
+        }if(fromTop < 3000){
+            counter.style.backgroundColor= "yellow";
+          }if(fromTop < 1000){
+              counter.style.backgroundColor= "coral";
+            }else if(fromTop < 582){
       counter.style.backgroundColor= "salmon";
-    }else if(fromTop < 582){
-      counter.style.backgroundColor= "coral";
     }
 
 
